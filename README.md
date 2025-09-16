@@ -16,8 +16,6 @@ A FastAPI application with MongoDB integration using Motor (async MongoDB driver
 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
-# or if using poetry:
-poetry install
 ```
 
 2. Ensure your MongoDB Atlas cluster is running and accessible.
@@ -37,8 +35,6 @@ PORT=8000
 4. Run the application:
 ```bash
 python main.py
-# or with uvicorn directly:
-uvicorn main:app --reload
 ```
 
 ## API Endpoints
